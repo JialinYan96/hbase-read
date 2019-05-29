@@ -31,7 +31,6 @@ public class TrajQuery {
                 TrajSegmentAvro segment=Utils.trajSegmentAvroDeserialize(r.getValue(Bytes.toBytes("segmentData")
                         ,Bytes.toBytes("100")));
                 System.out.println(segment);
-                System.out.println("try");
             }
         }
         catch (IOException e)
